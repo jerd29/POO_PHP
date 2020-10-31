@@ -11,6 +11,20 @@
 </head>
 <body>
 
+<form action="procesos/insertar.php" method="post">
+        <label>Nombre</label>
+        <p></p>
+        <input type="text" name="txtnombre">
+        <p></p>
+        <label>Apellido</label>
+        <p></p>
+        <input type="text" name="txtapellido">
+        <p></p>
+        <button>Agregar</button>
+</form>
+
+<br><br>
+
     <table style="border-collapse: collapse;" border="1">
             <tr>
                 <td>Nombre</td>
